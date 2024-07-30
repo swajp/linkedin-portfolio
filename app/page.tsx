@@ -62,7 +62,7 @@ export default function HomePage() {
                                 </div>
                                 {expierence.roles
                                     ? expierence.roles.map(role => (
-                                          <div className="flex gap-4">
+                                          <div className="flex gap-4" key={role.title}>
                                               <div className="w-12 flex flex-col items-center gap-2 justify-center">
                                                   <div className="w-2 h-2 bg-muted-foreground rounded-full" />
                                                   <div className="w-0.5 h-8 bg-muted-foreground/20" />
