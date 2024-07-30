@@ -106,6 +106,12 @@ export default function HomePage() {
                     ))}
                 </div>
             </Card>
+            <div className="text-muted-foreground mt-4">
+                fork this project on{" "}
+                <Link className="underline" href="https://github.com/swajp/linkedin-portfolio">
+                    github
+                </Link>
+            </div>
         </div>
     )
 }
